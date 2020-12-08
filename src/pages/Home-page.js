@@ -5,7 +5,7 @@ import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
 const HomePage = () => {
 	const ToggleContext = createContext();
-	const [toggleShow, setToggleShow] = useState(false);
+	const [toggleShow, setToggleShow] = useState(true);
 
 	return (
 		<div className="homepage">
@@ -34,7 +34,9 @@ const HomePage = () => {
 				</div>
 				<button>
 					<h1>Check my orders</h1>
-					<span>8.0SAR</span>
+					<span>
+						8.0<span>SAR</span>
+					</span>
 				</button>
 			</ToggleContext.Provider>
 		</div>

@@ -8,7 +8,11 @@ const MenuItem = ({ price, imageUrl }) => (
 				<img src={imageUrl} alt="item" />
 			</div>
 			<div className="detailes">
-				<p>Hash brown Cheeseburger with pickled Jalapeños </p>
+				<p>
+					Hash brown Cheeseburger with pickled Jalapeños.
+					<hr />
+					Hash brown Cheeseburger with pickled Jalapeños.
+				</p>
 			</div>
 			<div className="price-container">
 				<h2 className="price">{price}</h2>

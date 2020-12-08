@@ -38,6 +38,7 @@ const HomePage = () => {
 						8.0<span>SAR</span>
 					</span>
 				</button>
+				<hr />
 			</ToggleContext.Provider>
 		</div>
 	);

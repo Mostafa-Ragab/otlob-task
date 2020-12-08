@@ -40,3 +40,10 @@ span {
   color: #ff6565;
   background-color: white;
 }
+
+hr {
+  margin-top: 30px;
+  height: 10px;
+  width: 30%;
+  background-color: black;
+}

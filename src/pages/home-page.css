@@ -32,6 +32,7 @@ button {
 }
 button > h1 {
   color: white;
+  text-transform: uppercase;
 }
 button > p {
   font-size: 30px;

@@ -10,7 +10,10 @@
   align-items: center;
   cursor: pointer;
 }
-button {
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   width: 40%;
   height: 100px;
@@ -20,7 +23,7 @@ button {
   border: 1px solid black 0.1;
 }
 @media only screen and (max-width: 700px) {
-  button {
+  .button {
     margin: auto;
     width: 60%;
     height: 120px;
@@ -30,11 +33,11 @@ button {
     border: 1px solid black 0.1;
   }
 }
-button > h1 {
+.button > h1 {
   color: white;
   text-transform: uppercase;
 }
-button > p {
+.button > p {
   font-size: 30px;
 }
 span {

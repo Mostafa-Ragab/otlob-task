@@ -32,7 +32,7 @@ const HomePage = () => {
 						<KeyboardArrowDownIcon fontSize="large" />
 					</div>
 				</div>
-				<button>
+				<button className="button">
 					<h1>Check my orders</h1>
 					<span>
 						8.0<span>SAR</span>

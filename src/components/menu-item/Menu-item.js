@@ -9,8 +9,7 @@ const MenuItem = ({ price, imageUrl }) => (
 			</div>
 			<div className="detailes">
 				<p>
-					Hash brown Cheeseburger with pickled Jalapeños.
-					<hr />
+					Hash brown Cheeseburger with pickled Jalapeños. <br />
 					Hash brown Cheeseburger with pickled Jalapeños.
 				</p>
 			</div>
